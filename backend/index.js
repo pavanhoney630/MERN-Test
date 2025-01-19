@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-    origin: "", // URL of your React frontend
+    origin: "https://mern-test-frontend-phi.vercel.app", // URL of your React frontend
     methods: ["GET", "POST"], // HTTP methods allowed
     credentials: true, // Allow cookies to be sent
   };
